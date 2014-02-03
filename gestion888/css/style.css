@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+.flashnews {}
+
+#sidebar {position: relative;}
+//.article-links {position: fixed; top: 113px; width: 255px;}
+
+//Block preview
+
+.cl {clear:left;}
+.text-gray {color: rgb(235,234,234);}
+.text-blue {color: rgb(132,163,205);}
+.uppercase {text-transform: uppercase;}
+.capitalize {text-transform: capitalize;}
+
+.color-warning {color: #eb9316;}
+.color-primary {color: #2d6ca2;}
+
+.prochainement, .flash {margin: 10px 10px 10px 0;}
+.block-square {background-color: #FFF; background-image: url('../../img/base/bloc-carre.png'); float: left; height:235px; position:relative; width: 315px;}
+.block-square .encart-wrapper {background-color: rgb(192,192,193); bottom:0; height:63px; position: absolute; right: 0; width:215px;}
+.block-square .encart-wrapper .encart {background-color: rgb(134,134,135); bottom:0; height:63px; padding:0px 0 0 14px;  position: absolute; right: 0; }
+.block-square .encart-wrapper .encart h3 {font-family: 'Oswald', sans-serif; font-size: 18px; line-height: 1; margin:8px 0 3px 0; text-transform: uppercase; }
+.block-square .encart-wrapper .encart p {color: rgb(235,234,234); font-family: "PT Sans", sans-serif;font-size: 13px; line-height: 14px; text-align: left;}
+.block-square .encart-wrapper .encart a {color: rgb(132,163,205);text-decoration: none;}
+.block-square .encart-wrapper .encart a:hover { text-decoration: none;}
+
+/* Style Blocks flash News*/
+.articles {padding: 20px; }
+.articles-item {}
+.articles h3 { color: red; margin: 0;padding-bottom: 10px;}
+.articles div.resume {padding-bottom: 10px; }
+.articles  div.resume a { padding-bottom: 5px;  }
+
+.article-full h3 {color: red; padding:17px 0 30px;}
+.article-full p {padding-bottom: 10px;}
+
+p {
+    color: #272728;
+    font-family: "PT Sans",sans-serif;
+    font-size: 13px;
+    line-height: 1;
+    margin: 0;
+    text-align: justify;
+}
+
+h3.admin-titre { margin: 0; padding-left: 30px;}
+
+tr:first-child td:last-child {min-width: 70px;}

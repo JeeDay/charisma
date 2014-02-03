@@ -1,0 +1,18 @@
+h1 { font-size: 36px; font-weight: 500; line-height: 39.6px;}
+h2 { font-size: 30px; font-weight: 500; line-height: 33px;}
+h3 { font-size: 24px; font-weight: 500; line-height: 26.4px;}
+h4 { font-size: 18px; font-weight: 500; line-height: 19.8px;}
+h5 { font-size: 15px; font-weight: 500; line-height: 16.5px;margin-bottom: 10px;}
+h6 { font-size: 13px; font-weight: 500; line-height: 14.3px;}
+a { color: blue;}
+a:hover { text-decoration: underline;} 
+strong {font-weight: 700;}
+ul {padding: 0 0 0 20px;}
+ul li { list-style-type: disc;}
+ol {padding: 0 0 0 20px;}
+ol li { list-style-type: decimal;}
+dl {padding: 0 0 0 20px;}
+dd {padding: 0 0 0 10px;}
+blockquote { border-left: 3px solid #ccc; margin: 10px 0 10px 50px; padding: 0 0 0 15px;}
+
+.justify {text-align: justify;}
